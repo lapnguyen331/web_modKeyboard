@@ -9,6 +9,10 @@
   z-index: 99;
   transition: background 0.4s, all 0.3s linear;
 }
+
+.sub_menu .container{
+  padding: 0;
+}
 .header_area .main_menu {
   background: #ffffff;
 }
@@ -394,7 +398,7 @@
 }
 
 .sub_menu .nav-round{
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 .sub_menu .search-group{
   position: absolute;
