@@ -1,0 +1,42 @@
+.feartureCate-area{
+    margin: 40px 0px;
+}
+.feartureCate-area .flex-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.feartureCate-area .flex-wrap .title{
+    justify-content: center;
+    color: black;
+    margin-bottom: 10px;
+}
+.feartureCate-area .flex-wrap .cateList{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+.feartureCate-area .flex-wrap .card{
+    width: auto;
+    margin: 5px 10px ;
+    height: 10rem;
+    border: none;
+}
+.feartureCate-area .flex-wrap .card img{
+    width: auto;
+    height: 10rem;
+}
+
+.feartureCate-area .flex-wrap .card .card-body{
+    font-size: 15px;
+    color: black;
+    padding: 0;
+    min-width: 100%;
+}
+.feartureCate-area .flex-wrap .card .card-body h5{
+    text-align: center;
+}
