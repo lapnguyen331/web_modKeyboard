@@ -1,0 +1,39 @@
+.productSec{
+    padding: 10px 0px;
+    height: fit-content;
+}
+.productSec .flex-wrap{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.productSec .flex-wrap .head-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+
+}
+.productSec .flex-wrap .moreBut{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    right: 0;
+    margin-right: 30px;
+    font-size: 15px;
+}
+.productSec .flex-wrap .moreBut:hover{
+    color: rgb(20, 53, 195);
+    cursor: pointer;
+}
+.productSec .flex-wrap .moreBut p{
+    padding: 0;
+    margin: 0;
+}

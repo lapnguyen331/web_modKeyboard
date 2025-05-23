@@ -1,0 +1,70 @@
+.intro-bottom .intro-background {
+  background: url("../assets/home/introbanner.png") no-repeat center bottom;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  min-height: 200px;
+  padding: 0;
+}
+.intro-bottom .wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+}
+.intro-bottom .left-com {
+  /* width: 500px; */
+}
+.intro-bottom .left-com .title {
+  color: #80d9ff;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+.intro-bottom .left-com .title h4 {
+  font-size: 30px;
+}
+.intro-bottom .left-com .button-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+}
+.intro-bottom .left-com .button-wrap button {
+  padding: 5px 30px;
+  color: black;
+  background-color: #ffca94;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.intro-background .right-com {
+  display: flex;
+  flex-direction: row;
+  max-width: auto;
+}
+.intro-background .right-com .img-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  font-size: 0;
+  text-align: center;
+  width: 200px; /* Container's dimensions */
+  height: 50%;
+}
+.intro-background .right-com img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+.intro-background .right-com .text-wrap{
+    padding: 5px 10px;
+    background-color: rgb(214, 206, 206);
+    color: black;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    width: fit-content;
+}
