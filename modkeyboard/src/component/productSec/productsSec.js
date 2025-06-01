@@ -15,7 +15,7 @@ const ProductsSec =(props) =>{
                         {ishasMore?(
                             <div className="moreBut">
                                 <p>Xem thêm</p>
-                                <i class="fa-solid fa-angle-right"></i>
+                                <i className="fa-solid fa-angle-right"></i>
                             </div>
                         ):""}
                         

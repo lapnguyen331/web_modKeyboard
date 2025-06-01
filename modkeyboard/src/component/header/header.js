@@ -259,10 +259,10 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="nav-item search-group">
-                  <form class="d-flex search-form">
-                    <input class="form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm, linh kiện" aria-label="Search"/>
-                    <button class="btn searchbtn" type="submit">
-                      <i class="fa-solid fa-magnifying-glass"></i>
+                  <form clasName="d-flex search-form">
+                    <input className="form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm, linh kiện" aria-label="Search"/>
+                    <button className="btn searchbtn" type="submit">
+                      <i className="fa-solid fa-magnifying-glass"></i>
                       </button>
                   </form>
                 </li>

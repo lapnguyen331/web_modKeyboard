@@ -2,11 +2,11 @@ import "./homebanner.css";
 const HomeBanner = () => {
   return (
     <>
-      <section class="home_banner_area lg-10">
-        <div class="banner_inner d-flex align-items-center">
-          <div class="container">
-            <div class="banner_content row">
-              <div class="col-lg-12 bannerBut">
+      <section className="home_banner_area lg-10">
+        <div className="banner_inner d-flex align-items-center">
+          <div className="container">
+            <div className="banner_content row">
+              <div className="col-lg-12 bannerBut">
                 {/* <p class="sub text-uppercase">men Collection</p> */}
                 <h3>
                     <span>NEW : LOWER</span>

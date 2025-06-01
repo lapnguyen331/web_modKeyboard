@@ -1,19 +1,17 @@
 import React from "react";
 import "./productList.css";
 import { Link } from "react-router-dom";
-import { useDispatch,useSelector } from "react-redux";
-import { addToCart ,removeFromCart} from "../../redux/cartSlice";
+import ProductCard from "../productCard/productCard";
+import { useDispatch, useSelector } from "react-redux";
 
 const ProductList = ({ products = [] }) => {
   const dispatch = useDispatch();
-   // Lấy danh sách sản phẩm trong giỏ hàng từ Redux
+  // Lấy danh sách sản phẩm trong giỏ hàng từ Redux
   const cart = useSelector((state) => state.cart.items);
-
 
   return (
     <div className="product-grid">
-     
-      <div class="row">
+      {/* <div class="row">
         {products.map((product) => {
             // kiểm tra xem có id của product trong cart chưa
            const isInCart = cart.some((item) => item.id === product.id);
@@ -80,8 +78,17 @@ const ProductList = ({ products = [] }) => {
           </div>
            );
 })}
+      </div> */}
+
+      <div className="row">
+        {products.map((produc) => (
+          <div className="col-lg-3 col-md-6 product-item" key={produc.id}>
+            <ProductCard product={produc}></ProductCard>
+          </div>
+        ))}
       </div>
     </div>
   );
 };
+
 export default ProductList;

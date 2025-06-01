@@ -5,44 +5,44 @@ import logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (
-    <footer class="modern-footer pt-5">
-      <div class=" container footer-content"> {/* container*/}
-        <div class="row g-4 ">
+    <footer className="modern-footer pt-5">
+      <div className=" container footer-content"> {/* container*/}
+        <div className="row g-4 ">
           {/* <!-- Company Info --> */}
-          <div class="col-lg-3 col-lg-2">
-            <a href="#" class="footer-logo d-block mb-4">
+          <div className="col-lg-3 col-lg-2">
+            <a href="#" className="footer-logo d-block mb-4">
               <img src={logo} alt="Logo" />
-              <span class="text-primary">.</span>
+              <span className="text-primary">.</span>
             </a>
-            <p class="text-muted mb-5">
+            <p className="text-muted mb-5">
               Thành lập năm 2025, Modkey là 1 dự án Website mua bán và thiết kế
               bàn phím cho các đối tượng khách hàng. Chọn Custom, lụm phong
               cách.
             </p>
-            <p class="text-muted mb-4">Modkey - Keyboard Custom For Everyone</p>
-            <ul class="contact-info mb-4">
+            <p className="text-muted mb-4">Modkey - Keyboard Custom For Everyone</p>
+            <ul className="contact-info mb-4">
               <li>
-                <i class="fas fa-map-marker-alt"></i>
+                <i className="fas fa-map-marker-alt"></i>
                 <span>
                   Linh Trung, Thủ đức
                   <br />
                 </span>
               </li>
               <li>
-                <i class="fas fa-phone"></i>
+                <i className="fas fa-phone"></i>
                 <span>(+84)333333333</span>
               </li>
               <li>
-                <i class="fas fa-envelope"></i>
+                <i className="fas fa-envelope"></i>
                 <span>contact@yourbrand.com</span>
               </li>
             </ul>
           </div>
 
           {/* <!-- Quick Links --> */}
-          <div class="col-lg-2 col-md-2">
-            <h3 class="footer-title">Các dịch vụ</h3>
-            <ul class="quick-links">
+          <div className="col-lg-2 col-md-2">
+            <h3 className="footer-title">Các dịch vụ</h3>
+            <ul className="quick-links">
               <li>
                 <Link className="foot-links" to={"/search"}>Tìm kiếm</Link>
               </li>
@@ -69,9 +69,9 @@ const Footer = () => {
               </li> */}
             </ul>
           </div>
-          <div class="col-lg-2 col-md-2">
-            <h3 class="footer-title">Danh mục</h3>
-            <ul class="quick-links">
+          <div className="col-lg-2 col-md-2">
+            <h3 className="footer-title">Danh mục</h3>
+            <ul className="quick-links">
               <li>
                 <Link className="foot-links" to={"/search"}>Bàn phím lắp sẫn</Link>
               </li>
@@ -98,9 +98,9 @@ const Footer = () => {
               </li> */}
             </ul>
           </div>
-          <div class="col-lg-2 col-md-2">
-            <h3 class="footer-title">Hỗ trợ khách hàng</h3>
-            <ul class="quick-links">
+          <div className="col-lg-2 col-md-2">
+            <h3 className="footer-title">Hỗ trợ khách hàng</h3>
+            <ul className="quick-links">
               <li>
                 <Link  className="foot-links"  to={"#"}>Giới thiệu</Link>
               </li>
@@ -127,38 +127,38 @@ const Footer = () => {
           </div>
 
           {/* <!-- Newsletter --> */}
-          <div class="col-lg-3 col-md-7">
-            <h3 class="footer-title">Theo dõi chúng tôi</h3>
-            <p class="text-muted mb-4">
+          <div className="col-lg-3 col-md-7">
+            <h3 className="footer-title">Theo dõi chúng tôi</h3>
+            <p className="text-muted mb-4">
                 Đăng kí email để tham gia vào CLB, Fanpage của chúng tôi ngay!
             </p>
-            <form class="mb-4">
-              <div class="">
+            <form className="mb-4">
+              <div className="">
                 <input
                   type="email"
-                  class="form-control newsletter-input"
+                  className="form-control newsletter-input"
                   placeholder="Your email address"
                 />
               </div>
-              <button type="submit" class="btn btn-subscribe text-white subbtn ">
+              <button type="submit" className="btn btn-subscribe text-white subbtn ">
                 Theo dõi
               </button>
             </form>
-            <div class="social-links">
+            <div className="social-links">
                 <Link className="foot-social" to="">
-                <i class="fa-brands fa-square-facebook"></i>
+                <i className="fa-brands fa-square-facebook"></i>
                 </Link>
                 <Link className="foot-social" to="">
-                <i class="fa-brands fa-square-twitter"></i>
+                <i className="fa-brands fa-square-twitter"></i>
             </Link>
                 <Link className="foot-social" to="">
-                <i class="fa-brands fa-square-instagram"></i>
+                <i className="fa-brands fa-square-instagram"></i>
               </Link>
                 <Link className="foot-social" to="">
-                <i class="fa-brands fa-youtube"></i>
+                <i className="fa-brands fa-youtube"></i>
               </Link>
                 <Link className="foot-social" to="">
-               <i class="fa-brands fa-square-behance"></i>
+               <i className="fa-brands fa-square-behance"></i>
               </Link>
             </div>
           </div>
@@ -166,22 +166,22 @@ const Footer = () => {
       </div>
 
       {/* <!-- Footer Bottom --> */}
-      <div class="footer-bottom">
-        <div class="container">
-          <div class="row py-4">
-            <div class="col-md-6 text-center text-md-start">
+      <div className="footer-bottom">
+        <div className="container">
+          <div className="row py-4">
+            <div className="col-md-6 text-center text-md-start">
               <p>&copy; 2024 ModKey. mod theo cách của bạn</p>
             </div>
-            <div class="col-md-6 text-center text-md-end bootom-text">
+            <div className="col-md-6 text-center text-md-end bootom-text">
               <span >
                 Modkey.vn-@Copyright2025
                 
               </span>
               <a href="#" className="foot-social">
-                  <i class="fa-brands fa-cc-paypal"></i>
+                  <i className="fa-brands fa-cc-paypal"></i>
                 </a>
                 <a href="#" className="foot-social">
-                  <i class="fa-brands fa-cc-visa"></i>
+                  <i className="fa-brands fa-cc-visa"></i>
                 </a>
             </div>
           </div>

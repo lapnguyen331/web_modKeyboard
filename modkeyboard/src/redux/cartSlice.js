@@ -28,8 +28,12 @@ const cartSlice = createSlice({
       saveToSession(state.items);
     },
     removeFromCart: (state, action) => {
-      state.items = state.items.filter((p) => p.id !== action.payload);
-      saveToSession(state.items);
+      const newItems = state.items.filter((p) => p.id !== action.payload);
+      saveToSession(newItems);
+      return {
+        ...state,
+        items:newItems,
+      };
     },
     updateQuantity: (state, action) => {
       const { id, quantity } = action.payload;
@@ -48,11 +52,7 @@ const cartSlice = createSlice({
   },
 });
 
-export const {
-  addToCart,
-  removeFromCart,
-  updateQuantity,
-  clearCart,
-} = cartSlice.actions;
+export const { addToCart, removeFromCart, updateQuantity, clearCart } =
+  cartSlice.actions;
 
 export default cartSlice.reducer;
