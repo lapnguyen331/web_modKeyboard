@@ -12,11 +12,13 @@ import ProductDetail from "../pages/productDetail";
 import Tracking from "../pages/tracking";
 import Home from "../pages/home";
 import NotFound from "../pages/notfound";
+import Products from "../pages/products"
 const AppRoutes = () => {
   return (
     
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/home"  element= {<Home/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         {/* <Route path="/blog/:id" element={<BlogDetail />} /> */}
@@ -27,6 +29,7 @@ const AppRoutes = () => {
         <Route path="/tracking" element={<Tracking />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/productdetail" element={<ProductDetail />} />
+        <Route path ="/products" element ={<Products/>}/>
         <Route path="/notfound" element={<NotFound />} />
       </Routes>
     

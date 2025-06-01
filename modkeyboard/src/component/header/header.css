@@ -7,7 +7,9 @@
   top: 0;
   left: 0;
   z-index: 99;
+  background-color: #fff;
   transition: background 0.4s, all 0.3s linear;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 
 .sub_menu .container{

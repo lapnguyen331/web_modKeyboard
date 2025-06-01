@@ -81,7 +81,7 @@ const Header = () => {
                   <ul className="nav navbar-nav center_nav pull-right">
                     <li className="nav-item active">
                       {/* <a className="nav-link" href="index.html">Home</a> */}
-                      <Link className="nav-link" to="#">
+                      <Link className="nav-link" to="/home">
                         Home
                       </Link>
                     </li>
@@ -94,32 +94,32 @@ const Header = () => {
                         role="button"
                         aria-haspopup="true"
                         aria-expanded="false"
-                        to="/product"
+                        to="/products"
                       >
                         Sản phẩm{" "}
                       </Link>
                       <ul className="dropdown-menu">
                         <li className="nav-item">
                           {/* <a className="nav-link" href="category.html">Shop Category</a> */}
-                          <Link className="nav-link" to="/product">
+                          <Link className="nav-link" to="/products">
                             Bàn phím custom
                           </Link>
                         </li>
                         <li className="nav-item">
                           {/* <a className="nav-link" href="single-product.html">Product Details</a> */}
-                          <Link className="nav-link" to="/product">
+                          <Link className="nav-link" to="/products">
                             Bàn phím gaming
                           </Link>
                         </li>
                         <li className="nav-item">
                           {/* <a className="nav-link" href="checkout.html">Product Checkout</a> */}
-                          <Link className="nav-link" to="/product">
+                          <Link className="nav-link" to="/products">
                             Bàn phím cơ
                           </Link>
                         </li>
                         <li className="nav-item">
                           {/* <a className="nav-link" href="cart.html">Shopping Cart</a> */}
-                          <Link className="nav-link" to="/product">
+                          <Link className="nav-link" to="/products">
                             Bàn phím văn phòng
                           </Link>
                         </li>
