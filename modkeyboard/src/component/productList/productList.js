@@ -1,14 +1,31 @@
 import React from "react";
 import "./productList.css";
 import { Link } from "react-router-dom";
+import { useDispatch,useSelector } from "react-redux";
+import { addToCart ,removeFromCart} from "../../redux/cartSlice";
 
 const ProductList = ({ products = [] }) => {
+  const dispatch = useDispatch();
+   // Lấy danh sách sản phẩm trong giỏ hàng từ Redux
+  const cart = useSelector((state) => state.cart.items);
+
+
   return (
     <div className="product-grid">
      
       <div class="row">
-        {products.map((product) => (
-          <div class="col-lg-3 col-md-6">
+        {products.map((product) => {
+            // kiểm tra xem có id của product trong cart chưa
+           const isInCart = cart.some((item) => item.id === product.id);
+           const handleToggleCart = () => {
+            if (isInCart) {
+              dispatch(removeFromCart(product.id));
+            } else {
+              dispatch(addToCart(product));
+            }
+          };
+           return (
+          <div class="col-lg-3 col-md-6 product-item "  key={product.id}>
             <div class="single-product">
               <div class="product-img">
                 <img
@@ -52,14 +69,17 @@ const ProductList = ({ products = [] }) => {
                   <button to="#">
                     <i class="fa-solid fa-heart"></i>
                   </button>
-                  <button to="#">
-                    <i class="fa-solid fa-cart-plus"></i>
+                  <button  onClick={handleToggleCart}>
+                    <i className={`fa-solid fa-cart-plus ${
+            isInCart ? "pink-icon" : ""
+          }`}></i>
                   </button>
                 </div>
               </div>
             </div>
           </div>
-        ))}
+           );
+})}
       </div>
     </div>
   );

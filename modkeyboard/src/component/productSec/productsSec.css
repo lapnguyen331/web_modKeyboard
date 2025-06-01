@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
 }
 .productSec .flex-wrap .head-sec{
     display: flex;

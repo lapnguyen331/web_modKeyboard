@@ -4,6 +4,7 @@ import "./products.css";
 import ProductList from "../component/productList/productList";
 
 import products from "../data/products";
+
 const Products = () => {
   const FILTER_DATA = {
     brand: ["Akko", "Keychron", "Varmilo", "Logitech", "Durgod"],
@@ -31,7 +32,27 @@ const Products = () => {
           </div>
         </nav>
         <div className="container products-sec">
-          <div className="filter-group left-side"></div>
+          {/* filter */}
+          <div className="filter-group left-side">
+            <div className="container">
+           
+              <div className="price-sec">
+                <div className="title">
+                  <span>Khoảng giá</span>
+                </div>
+                <div className="input-price">
+                 <input type="number" min="1" step="1000" placeholder="0000"/>
+                  <input type="number" min="1" step="1000" placeholder="15.000.000"/>
+                </div>
+                <div class="slidecontainer">
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange"/>
+</div>
+              </div>
+              <div className="product-type-sec"></div>
+              <div className="brand-sec"></div>
+            </div>
+          </div>
+          {/* product list */}
           <div className="productList">
             <ProductList products={products}></ProductList>
           </div>
@@ -40,4 +61,5 @@ const Products = () => {
     </>
   );
 };
+
 export default Products;

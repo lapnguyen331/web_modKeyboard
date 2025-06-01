@@ -6,10 +6,10 @@ import logo from "../../assets/logo.png";
 const Footer = () => {
   return (
     <footer class="modern-footer pt-5">
-      <div class="container footer-content">
+      <div class=" container footer-content"> {/* container*/}
         <div class="row g-4 ">
           {/* <!-- Company Info --> */}
-          <div class="col-lg-3 col-md-2">
+          <div class="col-lg-3 col-lg-2">
             <a href="#" class="footer-logo d-block mb-4">
               <img src={logo} alt="Logo" />
               <span class="text-primary">.</span>
