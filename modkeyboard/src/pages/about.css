@@ -1,0 +1,75 @@
+.about-container {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.about-hero {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.about-hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+.about-section {
+    margin-bottom: 40px;
+}
+
+.about-section h2 {
+    font-size: 32px;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+}
+
+.highlight-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.highlight {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    flex: 1;
+    min-width: 250px;
+}
+
+.highlight h3 {
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+.team-section .team-group-photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.team-group-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border: 2px solid #ccc;
+}
