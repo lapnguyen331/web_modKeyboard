@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="400" height="160">
+	<title>100 (1)-svg</title>
+	<defs>
+		<image width="400" height="160" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAACgAQMAAAAYfKiWAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAfSURBVHic7cExAQAAAMKg9U9tDQ+gAAAAAAAAAIB3Ax/gAAHPz9QKAAAAAElFTkSuQmCC"/>
+		<image width="1000" height="471" id="img2" href="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDEwMDAgNDcxIiB3aWR0aD0iMTAwMCIgaGVpZ2h0PSI0NzEiPgoJPHRpdGxlPmRvd25sb2FkPC90aXRsZT4KCTxzdHlsZT4KCQkuczAgeyBmaWxsOiAjMDAwMDAwIH0gCgk8L3N0eWxlPgoJPHBhdGggaWQ9IlBhdGggMCIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGFzcz0iczAiIGQ9Im0wIDBoMTAwMHY0NzBoLTEwMDB6bTU5IDExN2g1OXYtNThoLTU5em0xMTcgMGg1MzB2LTU4aC01MzB6bTU4OSAwaDE3NnYtNThoLTE3NnptLTcwNiAyOTRoNDcwdi0xMTdoNTl2LTU5aDExOHYtNTloLTY0N3ptNzA2LTExN2g1OXYxMTdoMTE3di0yMzVoLTE3NnptLTExOCA1OWgtNTl2NThoMTc3di01OGgtNTl2LTU5aC01OXoiLz4KPC9zdmc+"/>
+	</defs>
+	<style>
+	</style>
+	<use id="img1" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+	<use id="96percent (1)" href="#img2" transform="matrix(.34,0,0,.34,30,0)"/>
+</svg>
